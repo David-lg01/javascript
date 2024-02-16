@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	num=parseInt(prompt("introduzca un numero"));
+
+	suma=0 ;
+
+	for(i=num;i>=1;i--){
+		if (num%i==0){
+			suma=suma+i;
+		}
+	}
+	document.write(" la suma de los divisores de "+num+" es "+suma);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
